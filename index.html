@@ -45,9 +45,30 @@
     <h1 class="display-4">WordCamp San Angelo</h1>
     <p class="lead">A One-day Conference About WordPress</p>
 	<div class="mt-5">
-  <button type="button" class="btn btn-secondary btn-lg text-warning" data-toggle="modal" data-target="#register">Register Now</button>
+  <button type="button" class="btn btn-secondary btn-lg text-warning" data-toggle="modal" data-target="#registerNow">Register Now</button>
 
-
+<!-- Modal -->
+<div class="modal fade" id="registerNow" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel" aria-hidden="true">
+  <div class="modal-dialog" role="document">
+    <div class="modal-content">
+      <div class="modal-header">
+        <h5 class="modal-title" id="exampleModalLabel">Register for WordCamp Conference</h5>
+        <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+          <span aria-hidden="true">&times;</span>
+        </button>
+      </div>
+      <div class="modal-body">
+        ...
+      </div>
+      <div class="modal-footer">
+        <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
+        <button type="button" class="btn btn-primary">Save changes</button>
+      </div>
+    </div>
+  </div>
+</div>
+<!--/end of modal-->
+		
   <a class="btn btn-secondary btn-lg text-warning" href="#speakers">See Speakers</a>
 </div>
   </div>
@@ -203,17 +224,32 @@
 <button type="button" class="btn btn-secondary btn-lg d-block mx-auto my-5" data-toggle="modal" data-target="#register">Don't Miss Out, Register Now</button>
 	
 <!-- Modal -->
-<div class="modal fade" id="exampleModal" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel" aria-hidden="true">
+<div class="modal fade" id="register" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel" aria-hidden="true">
   <div class="modal-dialog" role="document">
     <div class="modal-content">
       <div class="modal-header">
-        <h5 class="modal-title" id="exampleModalLabel">Register for WordCamp Conference</h5>
+        <h5 class="modal-title" id="exampleModalLabel2">Register for WordCamp Conference</h5>
         <button type="button" class="close" data-dismiss="modal" aria-label="Close">
           <span aria-hidden="true">&times;</span>
         </button>
       </div>
       <div class="modal-body">
-        ...
+<form>
+  <div class="form-group">
+    <label for="nameInput">Name:</label>
+    <input type="name" class="form-control" id="nameInput" aria-describedby="nameHelp">
+    
+  </div>
+  <div class="form-group">
+    <label for="emailInput">Email:</label>
+    <input type="email" class="form-control" id="emailInput">
+  </div>
+  <div class="form-group form-check">
+    <input type="checkbox" class="form-check-input" id="exampleCheck1">
+    <label class="form-check-label" for="exampleCheck1">Check me out</label>
+  </div>
+  <button type="submit" class="btn btn-primary">Submit</button>
+</form>
       </div>
       <div class="modal-footer">
         <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
@@ -222,9 +258,7 @@
     </div>
   </div>
 </div>
- 	
-
-		  
+<!--/end of modal-->		  
 <!-- signup form -->
 <hr>
 <div class="row py-4 text-muted">
