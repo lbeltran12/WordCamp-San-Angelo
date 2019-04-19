@@ -36,7 +36,8 @@
 }
 
 .jumbotron {
-	background-color: #ff881e !important;
+background-image: url("images/wordcamp2.jpg") !important;
+background-size: cover;
 }
 h3{
 	color: #fff !important;
