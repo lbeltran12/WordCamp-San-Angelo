@@ -1,0 +1,56 @@
+/* CSS Document */
+.bg-light {
+  background-color: #0F1447 !important; }
+
+.navbar-light .navbar-toggler {
+  color: rgba(255, 255, 255, 0) !important;
+  background-color: rgba(255, 255, 255, 0) !important; }
+
+.navbar-light .navbar-nav .nav-link {
+  color: #fff !important; }
+
+.navbar-light .navbar-nav .nav-link.active {
+  color: #ff881e !important; }
+
+.navbar-light .navbar-brand {
+  color: #fff !important; }
+
+.bg-primary {
+  background-color: none !important; }
+
+.text-warning {
+  color: #0f1447 !important; }
+
+.btn-secondary {
+  background-color: #D4D1D1 !important;
+  border: none !important;
+  color: #0f1447 !important; }
+
+.jumbotron {
+  background-image: url("../images/wordcamp2.jpg") !important;
+  background-size: cover; }
+
+h3 {
+  color: #fff !important;
+  background-color: #0f1447 !important;
+  text-align: center; }
+
+.text-muted {
+  color: #0f1447 !important; }
+
+.card-title {
+  color: #0f1447 !important; }
+
+.list-group-item-action {
+  color: #7D7D7D !important; }
+
+.card-body {
+  background-color: #ff881e !important; }
+
+h5 {
+  color: #0f1447 !important; }
+
+a {
+  color: #ff881e !important; }
+
+/*# sourceMappingURL=customstyle.css.map */
