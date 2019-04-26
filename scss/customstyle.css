@@ -1,4 +1,19 @@
 /* CSS Document */
+/* Variables */
+/* body */
+body {
+  background-color: #ccffdd; }
+
+.list-group .list-group-item {
+  background-color: #ffccff; }
+
+.list-group .list-group-item .mb-1 {
+  font-family: Garamond, sans-serif; }
+
+.row .col-md-6.col-lg-4 .card .card-body {
+  font-family: Garamond, sans-serif;
+  background-color: #cce5ff; }
+
 .bg-light {
   background-color: #0F1447 !important; }
 
@@ -45,7 +60,7 @@ h3 {
   color: #7D7D7D !important; }
 
 .card-body {
-  background-color: #ff881e !important; }
+  background-color: #ff881e; }
 
 h5 {
   color: #0f1447 !important; }

@@ -1,6 +1,53 @@
 @charset "utf-8";
 /* CSS Document */
 
+
+/* Variables */
+$bg-color-green: #ccffdd;
+$cont-color-pink: #ffccff;
+$wd-color-blue: #cce5ff;
+$font-stack: Garamond, sans-serif;
+
+/* body */
+body {
+	background-color: $bg-color-green;
+}
+
+.list-group {
+	.list-group-item {
+		background-color: $cont-color-pink;
+	}
+}
+
+.list-group {
+	.list-group-item{
+		.mb-1 {
+			font-family: $font-stack;
+	}
+}
+}
+
+.row {
+.col-md-6{
+	&.col-lg-4{
+		.card {
+			.card-body{
+					font-family: $font-stack;
+					background-color: $wd-color-blue;
+					}
+				}
+			}
+		}
+	}
+
+
+
+
+
+
+
+
+
 .bg-light{
 	background-color: #0F1447 !important;
 }
@@ -59,7 +106,7 @@ h3{
 }
 
 .card-body{
-	background-color: #ff881e !important;
+	background-color: #ff881e;
 }
 
 h5{
